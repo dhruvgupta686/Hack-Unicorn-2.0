@@ -80,7 +80,9 @@ app.get("/oncologist",(req,res)=>{
 app.get("/nephro",(req,res)=>{
     res.render("nephro.hbs")
 });
-
+app.get("/ai",(req,res)=>{
+    res.render("ai.hbs")
+});
 
 
 app.get("/login",(req,res)=>{
