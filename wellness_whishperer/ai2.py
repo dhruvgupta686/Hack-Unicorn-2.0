@@ -6,32 +6,32 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/Rajiv Arora/Desktop/Hack-Unicorn-2.0-1/wellness_whishperer/saved models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/Rajiv Arora/Desktop/Hack-Unicorn-2.0/wellness_whishperer/saved models/diabetes_model.sav', 'rb'))
 
 
-parkinsons_model = pickle.load(open('C:/Users/Rajiv Arora/Desktop/Hack-Unicorn-2.0-1/wellness_whishperer/saved models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('C:/Users/Rajiv Arora/Desktop/Hack-Unicorn-2.0/wellness_whishperer/saved models/parkinsons_model.sav', 'rb'))
 
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/home">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link disabled" href="#"></a>
       </li>
     </ul>
   </div>
